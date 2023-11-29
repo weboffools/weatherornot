@@ -33,7 +33,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Todo Or Not Todo',
+      title: 'Weather Or Not'
     }),
   ],
   optimization: {
