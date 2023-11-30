@@ -15,19 +15,39 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 4fr;
 }
 
 .current-weather {
   display: grid;
-  padding: 15px;
   grid-template-rows: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
-  border: 2px solid lightsteelblue;
-  border-radius: 10px;
   gap: 20px;
 }
+
+#query-form {
+  display: grid;
+  padding: 15px;
+}
+
+#query-form button {
+  width: 100px;
+  background: blue;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#query-form input {
+  padding: 5px;
+  width: 25%;
+  margin: 10px;
+}
+
+
 
 img {
   width: 100px;

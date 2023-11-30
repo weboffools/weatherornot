@@ -79,8 +79,8 @@ export default function DOM(loc='59701') {
     });
 
   currentWeather.append(iconArea, tempArea, otherData);
-  container.append(currentWeather);
   container.append(queryUserForm());
+  container.append(currentWeather);
 
   return container;
 }
